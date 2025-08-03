@@ -1,0 +1,6 @@
+@import "tailwindcss";
+ 
+
+.my-headline {
+  @apply font-mozilla-headline;
+}

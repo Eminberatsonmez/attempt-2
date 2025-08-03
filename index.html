@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- google font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@500&display=swap" rel="stylesheet">
+  <link href="./src/output.css" rel="stylesheet">
+</head>
+<body>
+    <!-- header section -->
+    <header class="container mx-auto py-2  md:py-4 font-mozilla uppercase bg-black border-black">
+      <!-- header container -->
+        <div class="container mx-auto items-center justify-between space-x-16"></div>
+        <!-- logo -->
+        <div class="flex items-center">
+          <img src="./img/img.jpg" alt="Logo" class="h-20">
+          <!-- navbar -->
+          <nav class="flex justify-between flex-1">
+            <!-- Menu -->
+            <div class="flex-1 items-center space-x-8 text-lg">
+              <a href="" class="text-orange-500 hover:text-white transition-colors duration-400">Home</a>
+              <a href="" class="text-orange-500 hover:text-white transition-colors duration-400">About</a>
+              <a href="" class="text-orange-500 hover:text-white transition-colors duration-400">Services</a>
+              <a href="" class="text-orange-500 hover:text-white transition-colors duration-400">Contact</a>
+            </div>
+            <!-- login area -->
+            <div class="flex items-center space-x-8">
+                <!-- search area  -->
+                <form>
+                    <div class="relative border-r">
+                        <input type="text" placeholder="Search..." class="px-4 py-0 rounded-full bg-gray-200 text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        <button type="submit" class="absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-600 hover:text-blue-500 transition-colors duration-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2.5-5.5a7.5 7.5 0 11-15 0 7.5 7.5 0 0115 0z"/>
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+              <a href="#" class="text-emerald-500 hover:text-emerald-700 transition-colors duration-400">Login</a>
+              <a href="#" class="text-rose-500 hover:text-rose-700 px-5 transition-colors duration-400">Sign Up</a>
+            </div>
+          </nav>
+        </div>
+    </header>
+    <!-- hero section -->
+    <section class="container mx-auto h-128 group position-relative">
+        <!-- hero image -->
+        <img src="./img/hero,/ntrbck.jpg" alt="hero image" class="w-full h-full object-cover">
+        <!-- hero content -->
+        <div class="absolute bottom-0 w-full bg-gradient-to-t from-black to-transparent p-8">
+          <!-- hero content container -->
+          <div class="container mx-auto">
+            <h3 class="text-3xl font-bold text-white">Unleash Your Creativity</h3>
+            <p class="text-lg text-gray-300 mt-4">Join us to explore the world of design and innovation. lets go</p>
+            <div class="mt-6 group-hover:mb-1 transition-all duration-300">
+              <a href="#" class="ease-in-out hover:-translate-y-1 hover:scale-110 bg-orange-500 text-white px-6 py-3 rounded-full ring-2 ring-orange-600 hover:bg-orange-600 hover:transition duration-300">Get Started</a>
+              <a href="#" class="bg-gray-800 text-white ring-2 ring-gray-700 px-6 py-3 rounded-full ml-4 hover:bg-gray-700 hover:transition duration-300 ">Learn More</a>
+            </div>
+        <div class="container mt-8 mx-auto flex-1 items-center space-x-8 text-lg ">    
+              <a href="#" class="text-gray-300 hover:text-white transition-colors duration-300">Explore Our Services</a>
+          
+              <a href="#" class="text-gray-300 hover:text-white transition-colors duration-300">Contact Us</a>
+            
+              <a href="#" class="text-gray-300 hover:text-white transition-colors duration-300">Privacy Policy</a>
+            
+              <a href="#" class="text-gray-300 hover:text-white transition-colors duration-300">Terms of Service</a>
+        </div>
+      </div>
+      
+    </section>
+</body>
+</html>
